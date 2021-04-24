@@ -1,11 +1,22 @@
-# live-coding-test
+# YouTube Search Box in Vue
 
-## Project setup
+A simple search box using YouTube API.
+
+## How to Setup
+
+Clone this repo and install packages with:
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+Get a YouTube app API Key and create a .env file in root folder with a variable:
+```
+VUE_APP_YOUTUBE_API_KEY=yourYoutubeApiKey
+```
+
+## How to Run
+
 ```
 npm run serve
 ```
